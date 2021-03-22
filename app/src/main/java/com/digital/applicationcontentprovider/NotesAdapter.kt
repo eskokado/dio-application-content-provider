@@ -38,7 +38,7 @@ class NotesAdapter(
         }
     }
 
-    fun setCursor(newCursor: Cursor) {
+    fun setCursor(newCursor: Cursor?) {
         mCursor = newCursor
         notifyDataSetChanged()
     }
